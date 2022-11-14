@@ -1,34 +1,38 @@
 html {
   font-family: "Public Sans", sans-serif;
+  color: #ffff;
 }
 .container {
-  position: relative;
-  width: 1440px;
-  height: 689px;
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.container.paiting img {
-  padding: 128px 20px 129px;
+.container .paiting {
+  position: relative;
   width: 335px;
   height: 432px;
+}
+.container .paiting img {
+  max-width: 100%;
+  padding: 128px 20px 129px;
 
 }
 
-.paiting .label h2,
-.paiting .label h3 {
+.container .paiting .label {
   position: absolute;
+  bottom: 1px;
+  left: 40px;
 }
 
-.label h2 {
+.paiting .label .title {
   font-weight: 700;
   font-size: 30px;
-  line-height: 32px;
+  line-height:35px;
 }
 
-.label h3 {
-  line-height: 80px;
+.paiting .label .subtitle {
   font-weight: 300;
   font-size: 17px;
   line-height:20px;
 }
-
