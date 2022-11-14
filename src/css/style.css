@@ -8,16 +8,14 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  min-height:100vh;
-  justify-content:center;
-    background-color:red;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .container .paiting {
   position: relative;
   width: 335px;
   height: 432px;
-  
 }
 .container .paiting img {
   max-width: 100%;

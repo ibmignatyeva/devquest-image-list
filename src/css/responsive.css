@@ -1,7 +1,9 @@
-@media (max-width: 1340px) {
+@media (max-width: 1440px) {
   .container .paiting img {
-    max-width: 900px;
     padding: 0;
-    background-color: blue;
+  }
+  .container {
+    max-width: 900px;
+    margin: 30px 0;
   }
 }
